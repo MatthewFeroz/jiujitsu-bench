@@ -1,0 +1,1139 @@
+{
+  "metadata": {
+    "name": "Jiu Jitsu Bench Glossary",
+    "version": "0.1.0",
+    "description": "Position-first glossary for a Jiu Jitsu reasoning benchmark. Japanese/Judo terms are included only when a standard term exists.",
+    "source_of_truth": "JSON; SQLite is generated from this file.",
+    "ruleset_scope": "Adult black-belt sport Jiu Jitsu, with gi and no-gi categories tracked separately where relevant."
+  },
+  "terms": [
+    {
+      "id": "mount",
+      "name": "Mount",
+      "type": "major_position",
+      "family": "top_pins",
+      "context": "both",
+      "definition": "Top player sits on the opponent's torso with knees or feet controlling both sides of the body."
+    },
+    {
+      "id": "low_mount",
+      "name": "Low mount",
+      "type": "variation",
+      "family": "top_pins",
+      "context": "both",
+      "definition": "Mount variation with the top player's hips lower on the opponent, commonly used to stabilize before climbing higher."
+    },
+    {
+      "id": "high_mount",
+      "name": "High mount",
+      "type": "variation",
+      "family": "top_pins",
+      "context": "both",
+      "definition": "Mount variation with the top player's knees climbed high toward the opponent's armpits to isolate the arms."
+    },
+    {
+      "id": "technical_mount",
+      "name": "Technical mount",
+      "type": "variation",
+      "family": "top_pins",
+      "context": "both",
+      "definition": "Side-facing mount used when the bottom player turns, with one knee high near the shoulder and the other leg posted or hooking near the hip."
+    },
+    {
+      "id": "s_mount",
+      "name": "S-mount",
+      "type": "variation",
+      "family": "top_pins",
+      "context": "both",
+      "definition": "High mount variation where the top player's legs form an S-like shape to isolate an arm for armbars and triangles."
+    },
+    {
+      "id": "reverse_mount",
+      "name": "Reverse mount",
+      "type": "variation",
+      "family": "top_pins",
+      "context": "both",
+      "definition": "Mount variation where the top player faces the opponent's legs rather than the head."
+    },
+    {
+      "id": "side_control",
+      "name": "Side control",
+      "type": "major_position",
+      "family": "top_pins",
+      "context": "both",
+      "definition": "Top pin from the side of the opponent's torso, usually chest-to-chest or hip-to-hip, with the guard passed."
+    },
+    {
+      "id": "north_south",
+      "name": "North-south",
+      "type": "major_position",
+      "family": "top_pins",
+      "context": "both",
+      "definition": "Top pin with the players aligned head-to-head in opposite directions after a guard pass or side-control transition."
+    },
+    {
+      "id": "scarf_hold",
+      "name": "Scarf hold",
+      "type": "major_position",
+      "family": "top_pins",
+      "context": "both",
+      "definition": "Side pin where the top player controls the head and near arm while facing toward the opponent's legs."
+    },
+    {
+      "id": "knee_on_belly",
+      "name": "Knee on belly",
+      "type": "major_position",
+      "family": "top_pins",
+      "context": "both",
+      "definition": "Top control with one knee applying pressure across the opponent's torso and the other foot posted for mobility."
+    },
+    {
+      "id": "knee_on_neck_shoulder",
+      "name": "Knee on neck or shoulder",
+      "type": "variation",
+      "family": "top_pins",
+      "context": "both",
+      "definition": "Pressure-position variation of knee ride where the knee is placed higher near the shoulder line or neck."
+    },
+    {
+      "id": "back_control",
+      "name": "Back control",
+      "type": "major_position",
+      "family": "back_and_turtle",
+      "context": "both",
+      "definition": "Control from behind the opponent, usually with hooks, a body triangle, or another lower-body control preventing the opponent from turning in."
+    },
+    {
+      "id": "flattened_back_control",
+      "name": "Flattened back control",
+      "type": "variation",
+      "family": "back_and_turtle",
+      "context": "both",
+      "definition": "Back control where the opponent is forced belly-down and extended, often increasing choke and arm-trap pressure."
+    },
+    {
+      "id": "body_triangle_back_control",
+      "name": "Body triangle back control",
+      "type": "variation",
+      "family": "back_and_turtle",
+      "context": "both",
+      "definition": "Back control with the attacker's legs locked around the opponent's torso as a triangle."
+    },
+    {
+      "id": "turtle",
+      "name": "Turtle",
+      "type": "major_position",
+      "family": "back_and_turtle",
+      "context": "both",
+      "definition": "Defensive grounded position where the bottom player is on knees and elbows or hands, facing the mat."
+    },
+    {
+      "id": "front_headlock_from_turtle",
+      "name": "Front headlock from turtle",
+      "type": "variation",
+      "family": "back_and_turtle",
+      "context": "both",
+      "definition": "Control over the head and often an arm while the opponent is turtled or partially turtled."
+    },
+    {
+      "id": "crucifix",
+      "name": "Crucifix",
+      "type": "submission_control",
+      "family": "back_and_turtle",
+      "context": "both",
+      "definition": "Control position where one of the opponent's arms is trapped with the legs while the upper body is controlled from the side or back."
+    },
+    {
+      "id": "t_kimura",
+      "name": "T-Kimura",
+      "type": "variation",
+      "family": "back_and_turtle",
+      "context": "both",
+      "definition": "Kimura-based control variation associated with crucifix and back-exposure attacks."
+    },
+    {
+      "id": "truck",
+      "name": "Truck",
+      "type": "variation",
+      "family": "back_and_turtle",
+      "context": "both",
+      "definition": "10th Planet leg-ride control used for back takes, twister attacks, calf slicers, and related transitions."
+    },
+    {
+      "id": "baby_bolo",
+      "name": "Baby bolo",
+      "type": "transition_position",
+      "family": "back_and_turtle",
+      "context": "both",
+      "definition": "Smaller berimbolo-style back-exposure pathway, commonly arising from De la Riva, leg-drag, or seated guard exchanges."
+    },
+    {
+      "id": "closed_guard",
+      "name": "Closed guard",
+      "type": "major_position",
+      "family": "closed_guard",
+      "context": "both",
+      "definition": "Bottom guard with the legs locked around the opponent's waist or torso."
+    },
+    {
+      "id": "high_guard",
+      "name": "High guard",
+      "type": "variation",
+      "family": "closed_guard",
+      "context": "both",
+      "definition": "Closed guard variation where the bottom player's legs climb high toward the opponent's shoulders to isolate posture and arms."
+    },
+    {
+      "id": "williams_guard_overhook_closed_guard",
+      "name": "Williams guard / overhook closed guard",
+      "type": "variation",
+      "family": "closed_guard",
+      "context": "both",
+      "definition": "Closed guard variation built around an overhook and shoulder control, commonly used to attack triangles, omoplatas, and armbars."
+    },
+    {
+      "id": "rubber_guard",
+      "name": "Rubber guard",
+      "type": "variation",
+      "family": "closed_guard",
+      "context": "both",
+      "definition": "10th Planet closed-guard system using leg and posture control to create choking, omoplata, and triangle threats."
+    },
+    {
+      "id": "half_guard",
+      "name": "Half guard",
+      "type": "major_position",
+      "family": "half_guard",
+      "context": "both",
+      "definition": "Guard where the bottom player controls one of the top player's legs between their own legs."
+    },
+    {
+      "id": "knee_shield_half_guard",
+      "name": "Knee shield half guard",
+      "type": "variation",
+      "family": "half_guard",
+      "context": "both",
+      "definition": "Half guard variation using the top knee or shin as a frame across the opponent's torso, shoulder, or hip."
+    },
+    {
+      "id": "z_guard",
+      "name": "Z-guard",
+      "type": "variation",
+      "family": "half_guard",
+      "context": "both",
+      "definition": "Knee-shield half guard variation with the shin framing across the opponent, creating a Z-like leg structure."
+    },
+    {
+      "id": "deep_half_guard",
+      "name": "Deep half guard",
+      "type": "variation",
+      "family": "half_guard",
+      "context": "both",
+      "definition": "Half guard where the bottom player is deep underneath the opponent's hips, often controlling a leg from below."
+    },
+    {
+      "id": "lockdown",
+      "name": "Lockdown",
+      "type": "variation",
+      "family": "half_guard",
+      "context": "both",
+      "definition": "10th Planet half-guard leg configuration that stretches and immobilizes the trapped leg."
+    },
+    {
+      "id": "electric_chair",
+      "name": "Electric chair",
+      "type": "submission_control",
+      "family": "half_guard",
+      "context": "both",
+      "definition": "10th Planet lockdown pathway that can function as a sweep, control, or groin-stretch submission depending on context."
+    },
+    {
+      "id": "dogfight",
+      "name": "Dogfight",
+      "type": "transition_position",
+      "family": "half_guard",
+      "context": "both",
+      "definition": "Kneeling half-guard scramble position, usually with an underhook, where both players fight for the sweep, pass, or back exposure."
+    },
+    {
+      "id": "reverse_half_guard",
+      "name": "Reverse half guard",
+      "type": "variation",
+      "family": "half_guard",
+      "context": "both",
+      "definition": "Half guard orientation where the top player faces toward the opponent's legs rather than head."
+    },
+    {
+      "id": "quarter_guard",
+      "name": "Quarter guard",
+      "type": "variation",
+      "family": "half_guard",
+      "context": "both",
+      "definition": "Late-stage guard retention position where the bottom player traps part of one of the top player's legs, often near the ankle or lower shin."
+    },
+    {
+      "id": "three_quarter_mount",
+      "name": "Three-quarter mount",
+      "type": "transition_position",
+      "family": "half_guard",
+      "context": "both",
+      "definition": "Near-mount passing position where the top player has mostly cleared guard but one lower leg remains trapped."
+    },
+    {
+      "id": "open_guard",
+      "name": "Open guard",
+      "type": "major_position",
+      "family": "open_guard",
+      "context": "both",
+      "definition": "Guard family where the bottom player's legs are not locked around the opponent, allowing mobile frames, hooks, grips, and entanglements."
+    },
+    {
+      "id": "seated_guard",
+      "name": "Seated guard",
+      "type": "variation",
+      "family": "open_guard",
+      "context": "both",
+      "definition": "Open guard orientation where the bottom player is upright or semi-upright, often looking to wrestle up, enter legs, or off-balance."
+    },
+    {
+      "id": "supine_open_guard",
+      "name": "Supine open guard",
+      "type": "variation",
+      "family": "open_guard",
+      "context": "both",
+      "definition": "Open guard orientation where the bottom player is on their back using legs, frames, and grips to manage distance."
+    },
+    {
+      "id": "butterfly_guard",
+      "name": "Butterfly guard",
+      "type": "variation",
+      "family": "open_guard",
+      "context": "both",
+      "definition": "Seated open guard using inside hooks to lift, off-balance, sweep, or enter leg and upper-body attacks."
+    },
+    {
+      "id": "shin_to_shin_guard",
+      "name": "Shin-to-shin guard",
+      "type": "variation",
+      "family": "open_guard",
+      "context": "both",
+      "definition": "Open guard connection where the bottom player's shin is placed against the opponent's shin to enter single-leg X, wrestle up, or off-balance."
+    },
+    {
+      "id": "x_guard",
+      "name": "X guard",
+      "type": "variation",
+      "family": "open_guard",
+      "context": "both",
+      "definition": "Open guard where the bottom player's legs form an X-like structure around one of the standing opponent's legs."
+    },
+    {
+      "id": "reverse_x_guard",
+      "name": "Reverse X guard",
+      "type": "variation",
+      "family": "open_guard",
+      "context": "both",
+      "definition": "X guard variation with reversed leg orientation, commonly used for sweeps and leg-lock entries."
+    },
+    {
+      "id": "de_la_riva_guard",
+      "name": "De la Riva guard",
+      "type": "variation",
+      "family": "open_guard",
+      "context": "both",
+      "definition": "Open guard using an outside leg hook around the opponent's lead leg, commonly paired with sleeve, collar, ankle, or wrist control."
+    },
+    {
+      "id": "reverse_de_la_riva_guard",
+      "name": "Reverse De la Riva guard",
+      "type": "variation",
+      "family": "open_guard",
+      "context": "both",
+      "definition": "Open guard using an inside hook around the opponent's lead leg, often against knee-cut and headquarters passing."
+    },
+    {
+      "id": "spider_guard",
+      "name": "Spider guard",
+      "type": "variation",
+      "family": "open_guard",
+      "context": "gi",
+      "definition": "Gi open guard using sleeve grips and feet on the opponent's arms or biceps to control posture and distance."
+    },
+    {
+      "id": "lasso_guard",
+      "name": "Lasso guard",
+      "type": "variation",
+      "family": "open_guard",
+      "context": "gi",
+      "definition": "Gi open guard where the bottom player's leg wraps around an opponent's arm controlled by a sleeve grip."
+    },
+    {
+      "id": "collar_sleeve_guard",
+      "name": "Collar-sleeve guard",
+      "type": "variation",
+      "family": "open_guard",
+      "context": "gi",
+      "definition": "Gi open guard using a collar grip and sleeve grip to manage distance, break posture, and attack triangles, armbars, and omoplatas."
+    },
+    {
+      "id": "worm_guard",
+      "name": "Worm guard",
+      "type": "variation",
+      "family": "open_guard",
+      "context": "gi",
+      "definition": "Modern lapel guard where the bottom player feeds and controls a lapel around the opponent's leg to restrict movement and create sweeps."
+    },
+    {
+      "id": "lapel_guard",
+      "name": "Lapel guard",
+      "type": "variation",
+      "family": "open_guard",
+      "context": "gi",
+      "definition": "Gi guard family built around feeding and controlling the opponent's lapel to create frames, binds, and off-balances."
+    },
+    {
+      "id": "k_guard",
+      "name": "K-guard",
+      "type": "variation",
+      "family": "open_guard",
+      "context": "both",
+      "definition": "Open guard leg-entry position where the bottom player creates an angled knee frame and hip access to enter backside 50/50, matrix, or other leg entanglements."
+    },
+    {
+      "id": "matrix_guard",
+      "name": "Matrix guard",
+      "type": "transition_position",
+      "family": "open_guard",
+      "context": "both",
+      "definition": "Inversion-based back-exposure pathway often linked to K-guard, De la Riva, and backside attacks."
+    },
+    {
+      "id": "tornado_guard",
+      "name": "Tornado guard",
+      "type": "variation",
+      "family": "open_guard",
+      "context": "both",
+      "definition": "Inverted guard variation used to create sweeps, back exposure, and omoplata-style angles."
+    },
+    {
+      "id": "donkey_guard",
+      "name": "Donkey guard",
+      "type": "variation",
+      "family": "open_guard",
+      "context": "both",
+      "definition": "Fringe inverted guard posture where the guard player turns away while inviting engagement."
+    },
+    {
+      "id": "ashi_garami",
+      "name": "Ashi garami",
+      "type": "major_position",
+      "family": "leg_entanglements",
+      "context": "both",
+      "definition": "Leg entanglement family where the attacker controls one of the opponent's legs with their own legs and hips."
+    },
+    {
+      "id": "outside_ashi",
+      "name": "Outside ashi",
+      "type": "variation",
+      "family": "leg_entanglements",
+      "context": "both",
+      "definition": "Ashi garami variation with the attacker's legs positioned to the outside of the opponent's trapped leg."
+    },
+    {
+      "id": "cross_ashi",
+      "name": "Cross ashi",
+      "type": "variation",
+      "family": "leg_entanglements",
+      "context": "both",
+      "definition": "Cross-body leg entanglement where the opponent's leg is controlled across the attacker's centerline."
+    },
+    {
+      "id": "inside_sankaku",
+      "name": "Inside sankaku",
+      "type": "variation",
+      "family": "leg_entanglements",
+      "context": "both",
+      "definition": "Leg entanglement also called saddle, honey hole, or 411, with strong control over the opponent's hip and knee line."
+    },
+    {
+      "id": "fifty_fifty",
+      "name": "50/50",
+      "type": "major_position",
+      "family": "leg_entanglements",
+      "context": "both",
+      "definition": "Mutual leg entanglement where both players have similar access to each other's legs."
+    },
+    {
+      "id": "seventy_thirty",
+      "name": "70/30",
+      "type": "variation",
+      "family": "leg_entanglements",
+      "context": "both",
+      "definition": "Leg entanglement related to 50/50 where one player has an asymmetric hip and knee-line advantage."
+    },
+    {
+      "id": "eighty_twenty",
+      "name": "80/20",
+      "type": "variation",
+      "family": "leg_entanglements",
+      "context": "both",
+      "definition": "Leg entanglement variation that improves attacking angle and control compared with neutral 50/50."
+    },
+    {
+      "id": "guard_passing",
+      "name": "Guard passing",
+      "type": "concept",
+      "family": "passing_positions",
+      "context": "both",
+      "definition": "Concept family for top-player positions and movements used to clear the opponent's guard."
+    },
+    {
+      "id": "headquarters",
+      "name": "Headquarters",
+      "type": "passing_position",
+      "family": "passing_positions",
+      "context": "both",
+      "definition": "Top passing position usually with one knee or shin between the guard player's legs, used to threaten knee cuts, leg weaves, and smash passes."
+    },
+    {
+      "id": "combat_base",
+      "name": "Combat base",
+      "type": "passing_position",
+      "family": "passing_positions",
+      "context": "both",
+      "definition": "Postured base with one knee up and one knee down, often used inside closed or open guard to manage distance and begin passing."
+    },
+    {
+      "id": "knee_cut_position",
+      "name": "Knee cut position",
+      "type": "passing_position",
+      "family": "passing_positions",
+      "context": "both",
+      "definition": "Passing position where the top player drives a knee across the guard player's thigh line to split and clear the guard."
+    },
+    {
+      "id": "half_guard_top",
+      "name": "Half guard top",
+      "type": "passing_position",
+      "family": "passing_positions",
+      "context": "both",
+      "definition": "Top position inside the opponent's half guard, balancing pass pressure with submission and backstep threats."
+    },
+    {
+      "id": "smash_half_guard",
+      "name": "Smash half guard",
+      "type": "passing_position",
+      "family": "passing_positions",
+      "context": "both",
+      "definition": "Top half guard variation using chest, shoulder, and hip pressure to flatten the bottom player before passing."
+    },
+    {
+      "id": "leg_drag",
+      "name": "Leg drag",
+      "type": "passing_position",
+      "family": "passing_positions",
+      "context": "both",
+      "definition": "Passing position where the top player drags the opponent's leg across the centerline to expose the hip and back."
+    },
+    {
+      "id": "double_under_stack",
+      "name": "Double-under stack",
+      "type": "passing_position",
+      "family": "passing_positions",
+      "context": "both",
+      "definition": "Passing position with both arms under the guard player's legs, stacking their hips toward their head."
+    },
+    {
+      "id": "over_under_pass_position",
+      "name": "Over-under pass position",
+      "type": "passing_position",
+      "family": "passing_positions",
+      "context": "both",
+      "definition": "Pressure passing position with one arm over and one arm under the guard player's legs."
+    },
+    {
+      "id": "toreando_pass_position",
+      "name": "Toreando / bullfighter passing position",
+      "type": "passing_position",
+      "family": "passing_positions",
+      "context": "both",
+      "definition": "Open-guard passing position using leg control and lateral movement to clear the legs."
+    },
+    {
+      "id": "body_lock_passing_position",
+      "name": "Body lock passing position",
+      "type": "passing_position",
+      "family": "passing_positions",
+      "context": "no_gi",
+      "definition": "No-gi passing position where the top player locks around the guard player's torso to restrict hip movement."
+    },
+    {
+      "id": "folding_pass_position",
+      "name": "Folding pass position",
+      "type": "passing_position",
+      "family": "passing_positions",
+      "context": "both",
+      "definition": "Passing position that folds the guard player's knees and hips toward their torso to pin and clear the legs."
+    },
+    {
+      "id": "stack_pass_position",
+      "name": "Stack pass position",
+      "type": "passing_position",
+      "family": "passing_positions",
+      "context": "both",
+      "definition": "Passing position using pressure to stack the guard player's hips over their shoulders."
+    },
+    {
+      "id": "underhook",
+      "name": "Underhook",
+      "type": "control",
+      "family": "controls",
+      "context": "both",
+      "definition": "Arm position where a player's arm passes under the opponent's arm to control the shoulder line, torso, or angle."
+    },
+    {
+      "id": "overhook",
+      "name": "Overhook",
+      "type": "control",
+      "family": "controls",
+      "context": "both",
+      "definition": "Arm position where a player's arm wraps over the opponent's arm to limit posture, grip, or shoulder movement."
+    },
+    {
+      "id": "crossface",
+      "name": "Crossface",
+      "type": "control",
+      "family": "controls",
+      "context": "both",
+      "definition": "Shoulder or arm pressure across the opponent's face or jawline to turn the head and limit spinal alignment."
+    },
+    {
+      "id": "inside_position",
+      "name": "Inside position",
+      "type": "concept",
+      "family": "controls",
+      "context": "both",
+      "definition": "Positional advantage where a player's limbs occupy the inside channels, improving frames, pummeling, and control."
+    },
+    {
+      "id": "frame",
+      "name": "Frame",
+      "type": "concept",
+      "family": "controls",
+      "context": "both",
+      "definition": "Structural use of the limbs to create distance, carry weight, or block movement."
+    },
+    {
+      "id": "hook",
+      "name": "Hook",
+      "type": "control",
+      "family": "controls",
+      "context": "both",
+      "definition": "Use of the foot or leg to attach to and manipulate the opponent's leg, hip, or torso."
+    },
+    {
+      "id": "seatbelt",
+      "name": "Seatbelt",
+      "type": "control",
+      "family": "controls",
+      "context": "both",
+      "definition": "Back-control upper-body grip with one arm over the shoulder and one arm under the armpit."
+    },
+    {
+      "id": "body_triangle",
+      "name": "Body triangle",
+      "type": "control",
+      "family": "controls",
+      "context": "both",
+      "definition": "Leg triangle around the opponent's torso, commonly used from back control to restrict breathing and hip rotation."
+    },
+    {
+      "id": "gift_wrap",
+      "name": "Gift wrap",
+      "type": "submission_control",
+      "family": "controls",
+      "context": "both",
+      "definition": "Control where one of the opponent's arms is forced across their centerline and held near the far side of the head or shoulder."
+    },
+    {
+      "id": "kimura_trap",
+      "name": "Kimura trap",
+      "type": "submission_control",
+      "family": "controls",
+      "context": "both",
+      "definition": "Figure-four shoulder control used to attack the Kimura, back takes, sweeps, and positional transitions."
+    },
+    {
+      "id": "kimura_side_control",
+      "name": "Kimura side control",
+      "type": "submission_control",
+      "family": "controls",
+      "context": "both",
+      "definition": "Side-control variation built around a Kimura grip and shoulder isolation."
+    },
+    {
+      "id": "omoplata_control",
+      "name": "Omoplata control",
+      "type": "submission_control",
+      "family": "controls",
+      "context": "both",
+      "definition": "Control position where the attacker's leg traps the opponent's shoulder for an omoplata finish, sweep, or transition."
+    },
+    {
+      "id": "arm_triangle_control",
+      "name": "Arm triangle control",
+      "type": "submission_control",
+      "family": "controls",
+      "context": "both",
+      "definition": "Head-and-arm control where the opponent's shoulder is driven into one side of their neck."
+    },
+    {
+      "id": "triangle_control",
+      "name": "Triangle control",
+      "type": "submission_control",
+      "family": "controls",
+      "context": "both",
+      "definition": "Leg configuration around the opponent's neck and one arm used to control posture and finish triangle chokes or transition."
+    },
+    {
+      "id": "armbar_control",
+      "name": "Armbar control",
+      "type": "submission_control",
+      "family": "controls",
+      "context": "both",
+      "definition": "Finishing position for a straight arm lock with the elbow controlled against the attacker's hips."
+    },
+    {
+      "id": "mounted_triangle_control",
+      "name": "Mounted triangle control",
+      "type": "submission_control",
+      "family": "controls",
+      "context": "both",
+      "definition": "Triangle configuration applied from mount or a mount transition."
+    },
+    {
+      "id": "back_triangle_control",
+      "name": "Back triangle control",
+      "type": "submission_control",
+      "family": "controls",
+      "context": "both",
+      "definition": "Triangle configuration from the back that traps the opponent's torso, shoulder, or neck line."
+    },
+    {
+      "id": "north_south_choke_control",
+      "name": "North-south choke control",
+      "type": "submission_control",
+      "family": "controls",
+      "context": "no_gi",
+      "definition": "Chest and shoulder control from north-south used to compress the opponent's neck without a gi grip."
+    },
+    {
+      "id": "guillotine_front_headlock_control",
+      "name": "Guillotine / front headlock control",
+      "type": "submission_control",
+      "family": "controls",
+      "context": "both",
+      "definition": "Head-and-arm control family used to attack guillotines, front headlock chokes, and transitions to the back."
+    },
+    {
+      "id": "darce_anaconda_control",
+      "name": "Darce / anaconda control",
+      "type": "submission_control",
+      "family": "controls",
+      "context": "both",
+      "definition": "Arm-in front headlock control family that threads around the neck and trapped arm."
+    },
+    {
+      "id": "collar_grip",
+      "name": "Collar grip",
+      "type": "grip",
+      "family": "gi_grips",
+      "context": "gi",
+      "definition": "Grip on the opponent's gi collar used to control posture, distance, and choking lines."
+    },
+    {
+      "id": "sleeve_grip",
+      "name": "Sleeve grip",
+      "type": "grip",
+      "family": "gi_grips",
+      "context": "gi",
+      "definition": "Grip on the opponent's gi sleeve used to control an arm, prevent posting, or create guard attacks."
+    },
+    {
+      "id": "lapel_grip",
+      "name": "Lapel grip",
+      "type": "grip",
+      "family": "gi_grips",
+      "context": "gi",
+      "definition": "Grip on the opponent's lapel, including fed-lapel controls used in modern lapel guards."
+    },
+    {
+      "id": "belt_grip",
+      "name": "Belt grip",
+      "type": "grip",
+      "family": "gi_grips",
+      "context": "gi",
+      "definition": "Grip on the opponent's belt used for control, retention, passing, or back exposure."
+    },
+    {
+      "id": "pant_grip",
+      "name": "Pant grip",
+      "type": "grip",
+      "family": "gi_grips",
+      "context": "gi",
+      "definition": "Grip on the opponent's gi pants used to control leg position and passing or guard-retention exchanges."
+    },
+    {
+      "id": "armbar",
+      "name": "Armbar",
+      "type": "submission",
+      "family": "armlocks",
+      "context": "both",
+      "definition": "Straight arm lock attacking elbow extension."
+    },
+    {
+      "id": "kimura",
+      "name": "Kimura",
+      "type": "submission",
+      "family": "shoulder_locks",
+      "context": "both",
+      "definition": "Figure-four shoulder lock using internal rotation of the shoulder."
+    },
+    {
+      "id": "americana",
+      "name": "Americana",
+      "type": "submission",
+      "family": "shoulder_locks",
+      "context": "both",
+      "definition": "Figure-four shoulder lock using external rotation of the shoulder."
+    },
+    {
+      "id": "omoplata",
+      "name": "Omoplata",
+      "type": "submission",
+      "family": "shoulder_locks",
+      "context": "both",
+      "definition": "Shoulder lock using the legs to trap and rotate the opponent's shoulder."
+    },
+    {
+      "id": "triangle_choke",
+      "name": "Triangle choke",
+      "type": "submission",
+      "family": "chokes",
+      "context": "both",
+      "definition": "Leg choke trapping the opponent's neck and one arm."
+    },
+    {
+      "id": "rear_naked_choke",
+      "name": "Rear naked choke",
+      "type": "submission",
+      "family": "chokes",
+      "context": "no_gi",
+      "definition": "Choke from back control applied without using the gi."
+    },
+    {
+      "id": "arm_triangle_choke",
+      "name": "Arm triangle choke",
+      "type": "submission",
+      "family": "chokes",
+      "context": "both",
+      "definition": "Head-and-arm choke using the opponent's shoulder to compress one side of the neck."
+    },
+    {
+      "id": "north_south_choke",
+      "name": "North-south choke",
+      "type": "submission",
+      "family": "chokes",
+      "context": "no_gi",
+      "definition": "Choke from north-south using shoulder, chest, and head positioning to compress the neck."
+    },
+    {
+      "id": "guillotine_choke",
+      "name": "Guillotine choke",
+      "type": "submission",
+      "family": "chokes",
+      "context": "both",
+      "definition": "Front headlock choke attacking the neck from in front of the opponent."
+    },
+    {
+      "id": "darce_choke",
+      "name": "Darce choke",
+      "type": "submission",
+      "family": "chokes",
+      "context": "both",
+      "definition": "Arm-in choke threaded from the front headlock or side-control family."
+    },
+    {
+      "id": "anaconda_choke",
+      "name": "Anaconda choke",
+      "type": "submission",
+      "family": "chokes",
+      "context": "both",
+      "definition": "Arm-in front headlock choke that wraps around the neck and trapped arm."
+    },
+    {
+      "id": "cross_collar_choke",
+      "name": "Cross-collar choke",
+      "type": "submission",
+      "family": "chokes",
+      "context": "gi",
+      "definition": "Gi choke using crossed collar grips to compress the neck."
+    },
+    {
+      "id": "bow_and_arrow_choke",
+      "name": "Bow-and-arrow choke",
+      "type": "submission",
+      "family": "chokes",
+      "context": "gi",
+      "definition": "Gi choke from back control using collar and leg or body positioning to create bow-and-arrow tension."
+    },
+    {
+      "id": "baseball_bat_choke",
+      "name": "Baseball bat choke",
+      "type": "submission",
+      "family": "chokes",
+      "context": "gi",
+      "definition": "Gi choke using two collar grips in a baseball-bat-like hand configuration."
+    },
+    {
+      "id": "ezekiel_choke",
+      "name": "Ezekiel choke",
+      "type": "submission",
+      "family": "chokes",
+      "context": "gi",
+      "definition": "Choke commonly using the attacker's sleeve and forearm pressure, often from mount or inside guard."
+    },
+    {
+      "id": "loop_choke",
+      "name": "Loop choke",
+      "type": "submission",
+      "family": "chokes",
+      "context": "gi",
+      "definition": "Gi collar choke using a looping arm action around the opponent's neck."
+    },
+    {
+      "id": "gogoplata",
+      "name": "Gogoplata",
+      "type": "submission",
+      "family": "chokes",
+      "context": "both",
+      "definition": "Shin-based choke usually attacked from high guard or rubber guard."
+    },
+    {
+      "id": "straight_ankle_lock",
+      "name": "Straight ankle lock",
+      "type": "submission",
+      "family": "leg_locks",
+      "context": "both",
+      "definition": "Foot and ankle lock attacking extension and pressure through the ankle."
+    },
+    {
+      "id": "heel_hook",
+      "name": "Heel hook",
+      "type": "submission",
+      "family": "leg_locks",
+      "context": "no_gi",
+      "definition": "Rotational leg lock attacking the knee through heel control."
+    },
+    {
+      "id": "kneebar",
+      "name": "Kneebar",
+      "type": "submission",
+      "family": "leg_locks",
+      "context": "both",
+      "definition": "Straight leg lock attacking knee extension."
+    },
+    {
+      "id": "toe_hold",
+      "name": "Toe hold",
+      "type": "submission",
+      "family": "leg_locks",
+      "context": "both",
+      "definition": "Figure-four foot lock that rotates the ankle and can pressure the knee."
+    },
+    {
+      "id": "wristlock",
+      "name": "Wristlock",
+      "type": "submission",
+      "family": "wrist_locks",
+      "context": "both",
+      "definition": "Joint lock attacking wrist flexion, extension, or rotation."
+    }
+  ],
+  "aliases": [
+    { "term_id": "mount", "alias": "Tate-shiho-gatame", "language": "ja-romaji", "type": "judo_standard" },
+    { "term_id": "side_control", "alias": "Yoko-shiho-gatame", "language": "ja-romaji", "type": "judo_standard" },
+    { "term_id": "north_south", "alias": "Kami-shiho-gatame", "language": "ja-romaji", "type": "judo_standard" },
+    { "term_id": "scarf_hold", "alias": "Kesa-gatame", "language": "ja-romaji", "type": "judo_standard" },
+    { "term_id": "back_control", "alias": "Rear mount", "language": "en", "type": "common" },
+    { "term_id": "back_control", "alias": "Back mount", "language": "en", "type": "common" },
+    { "term_id": "front_headlock_from_turtle", "alias": "Front headlock", "language": "en", "type": "common" },
+    { "term_id": "truck", "alias": "10th Planet truck", "language": "en", "type": "system_specific" },
+    { "term_id": "williams_guard_overhook_closed_guard", "alias": "Overhook closed guard", "language": "en", "type": "common" },
+    { "term_id": "rubber_guard", "alias": "10th Planet rubber guard", "language": "en", "type": "system_specific" },
+    { "term_id": "lockdown", "alias": "10th Planet lockdown", "language": "en", "type": "system_specific" },
+    { "term_id": "electric_chair", "alias": "10th Planet electric chair", "language": "en", "type": "system_specific" },
+    { "term_id": "de_la_riva_guard", "alias": "DLR", "language": "en", "type": "abbreviation" },
+    { "term_id": "reverse_de_la_riva_guard", "alias": "RDLR", "language": "en", "type": "abbreviation" },
+    { "term_id": "fifty_fifty", "alias": "50/50 guard", "language": "en", "type": "common" },
+    { "term_id": "seventy_thirty", "alias": "70/30 guard", "language": "en", "type": "common" },
+    { "term_id": "outside_ashi", "alias": "Outside sankaku", "language": "en", "type": "common" },
+    { "term_id": "inside_sankaku", "alias": "Saddle", "language": "en", "type": "common" },
+    { "term_id": "inside_sankaku", "alias": "Honey hole", "language": "en", "type": "common" },
+    { "term_id": "inside_sankaku", "alias": "411", "language": "en", "type": "common" },
+    { "term_id": "toreando_pass_position", "alias": "Bullfighter pass position", "language": "en", "type": "common" },
+    { "term_id": "armbar", "alias": "Juji-gatame", "language": "ja-romaji", "type": "judo_standard" },
+    { "term_id": "armbar", "alias": "Cross arm lock", "language": "en", "type": "common" },
+    { "term_id": "kimura", "alias": "Ude-garami", "language": "ja-romaji", "type": "judo_standard_family" },
+    { "term_id": "kimura", "alias": "Double wrist lock", "language": "en", "type": "common" },
+    { "term_id": "americana", "alias": "Ude-garami", "language": "ja-romaji", "type": "judo_standard_family" },
+    { "term_id": "omoplata", "alias": "Sankaku-garami", "language": "ja-romaji", "type": "judo_related" },
+    { "term_id": "triangle_choke", "alias": "Sankaku-jime", "language": "ja-romaji", "type": "judo_standard" },
+    { "term_id": "rear_naked_choke", "alias": "Hadaka-jime", "language": "ja-romaji", "type": "judo_standard" },
+    { "term_id": "arm_triangle_choke", "alias": "Kata-gatame", "language": "ja-romaji", "type": "judo_standard" },
+    { "term_id": "cross_collar_choke", "alias": "Nami-juji-jime", "language": "ja-romaji", "type": "judo_standard_family" },
+    { "term_id": "ezekiel_choke", "alias": "Sode-guruma-jime", "language": "ja-romaji", "type": "judo_standard" },
+    { "term_id": "straight_ankle_lock", "alias": "Ashi-hishigi", "language": "ja-romaji", "type": "judo_related" }
+  ],
+  "relationships": [
+    { "source_id": "low_mount", "relationship_type": "variation_of", "target_id": "mount" },
+    { "source_id": "high_mount", "relationship_type": "variation_of", "target_id": "mount" },
+    { "source_id": "technical_mount", "relationship_type": "variation_of", "target_id": "mount" },
+    { "source_id": "s_mount", "relationship_type": "variation_of", "target_id": "mount" },
+    { "source_id": "reverse_mount", "relationship_type": "variation_of", "target_id": "mount" },
+    { "source_id": "knee_on_neck_shoulder", "relationship_type": "variation_of", "target_id": "knee_on_belly" },
+    { "source_id": "flattened_back_control", "relationship_type": "variation_of", "target_id": "back_control" },
+    { "source_id": "body_triangle_back_control", "relationship_type": "variation_of", "target_id": "back_control" },
+    { "source_id": "front_headlock_from_turtle", "relationship_type": "variation_of", "target_id": "turtle" },
+    { "source_id": "t_kimura", "relationship_type": "variation_of", "target_id": "crucifix" },
+    { "source_id": "truck", "relationship_type": "related_to", "target_id": "turtle" },
+    { "source_id": "baby_bolo", "relationship_type": "related_to", "target_id": "de_la_riva_guard" },
+    { "source_id": "baby_bolo", "relationship_type": "transitions_to", "target_id": "back_control" },
+    { "source_id": "high_guard", "relationship_type": "variation_of", "target_id": "closed_guard" },
+    { "source_id": "williams_guard_overhook_closed_guard", "relationship_type": "variation_of", "target_id": "closed_guard" },
+    { "source_id": "rubber_guard", "relationship_type": "variation_of", "target_id": "closed_guard" },
+    { "source_id": "knee_shield_half_guard", "relationship_type": "variation_of", "target_id": "half_guard" },
+    { "source_id": "z_guard", "relationship_type": "variation_of", "target_id": "half_guard" },
+    { "source_id": "deep_half_guard", "relationship_type": "variation_of", "target_id": "half_guard" },
+    { "source_id": "lockdown", "relationship_type": "variation_of", "target_id": "half_guard" },
+    { "source_id": "electric_chair", "relationship_type": "uses_control", "target_id": "lockdown" },
+    { "source_id": "dogfight", "relationship_type": "transitions_from", "target_id": "half_guard" },
+    { "source_id": "reverse_half_guard", "relationship_type": "variation_of", "target_id": "half_guard" },
+    { "source_id": "quarter_guard", "relationship_type": "variation_of", "target_id": "half_guard" },
+    { "source_id": "three_quarter_mount", "relationship_type": "transitions_between", "target_id": "half_guard" },
+    { "source_id": "three_quarter_mount", "relationship_type": "transitions_to", "target_id": "mount" },
+    { "source_id": "seated_guard", "relationship_type": "variation_of", "target_id": "open_guard" },
+    { "source_id": "supine_open_guard", "relationship_type": "variation_of", "target_id": "open_guard" },
+    { "source_id": "butterfly_guard", "relationship_type": "variation_of", "target_id": "open_guard" },
+    { "source_id": "shin_to_shin_guard", "relationship_type": "variation_of", "target_id": "open_guard" },
+    { "source_id": "x_guard", "relationship_type": "variation_of", "target_id": "open_guard" },
+    { "source_id": "reverse_x_guard", "relationship_type": "variation_of", "target_id": "open_guard" },
+    { "source_id": "de_la_riva_guard", "relationship_type": "variation_of", "target_id": "open_guard" },
+    { "source_id": "reverse_de_la_riva_guard", "relationship_type": "variation_of", "target_id": "open_guard" },
+    { "source_id": "spider_guard", "relationship_type": "variation_of", "target_id": "open_guard" },
+    { "source_id": "lasso_guard", "relationship_type": "variation_of", "target_id": "open_guard" },
+    { "source_id": "collar_sleeve_guard", "relationship_type": "variation_of", "target_id": "open_guard" },
+    { "source_id": "worm_guard", "relationship_type": "variation_of", "target_id": "lapel_guard" },
+    { "source_id": "lapel_guard", "relationship_type": "variation_of", "target_id": "open_guard" },
+    { "source_id": "k_guard", "relationship_type": "variation_of", "target_id": "open_guard" },
+    { "source_id": "matrix_guard", "relationship_type": "related_to", "target_id": "k_guard" },
+    { "source_id": "tornado_guard", "relationship_type": "variation_of", "target_id": "open_guard" },
+    { "source_id": "donkey_guard", "relationship_type": "variation_of", "target_id": "open_guard" },
+    { "source_id": "outside_ashi", "relationship_type": "variation_of", "target_id": "ashi_garami" },
+    { "source_id": "cross_ashi", "relationship_type": "variation_of", "target_id": "ashi_garami" },
+    { "source_id": "inside_sankaku", "relationship_type": "variation_of", "target_id": "ashi_garami" },
+    { "source_id": "fifty_fifty", "relationship_type": "variation_of", "target_id": "ashi_garami" },
+    { "source_id": "seventy_thirty", "relationship_type": "variation_of", "target_id": "fifty_fifty" },
+    { "source_id": "eighty_twenty", "relationship_type": "variation_of", "target_id": "fifty_fifty" },
+    { "source_id": "headquarters", "relationship_type": "member_of", "target_id": "guard_passing" },
+    { "source_id": "combat_base", "relationship_type": "member_of", "target_id": "guard_passing" },
+    { "source_id": "knee_cut_position", "relationship_type": "member_of", "target_id": "guard_passing" },
+    { "source_id": "half_guard_top", "relationship_type": "member_of", "target_id": "guard_passing" },
+    { "source_id": "smash_half_guard", "relationship_type": "member_of", "target_id": "guard_passing" },
+    { "source_id": "leg_drag", "relationship_type": "member_of", "target_id": "guard_passing" },
+    { "source_id": "double_under_stack", "relationship_type": "member_of", "target_id": "guard_passing" },
+    { "source_id": "over_under_pass_position", "relationship_type": "member_of", "target_id": "guard_passing" },
+    { "source_id": "toreando_pass_position", "relationship_type": "member_of", "target_id": "guard_passing" },
+    { "source_id": "body_lock_passing_position", "relationship_type": "member_of", "target_id": "guard_passing" },
+    { "source_id": "folding_pass_position", "relationship_type": "member_of", "target_id": "guard_passing" },
+    { "source_id": "stack_pass_position", "relationship_type": "member_of", "target_id": "guard_passing" },
+    { "source_id": "seatbelt", "relationship_type": "common_control_from", "target_id": "back_control" },
+    { "source_id": "body_triangle", "relationship_type": "common_control_from", "target_id": "back_control" },
+    { "source_id": "gift_wrap", "relationship_type": "common_control_from", "target_id": "mount" },
+    { "source_id": "kimura_trap", "relationship_type": "common_control_from", "target_id": "closed_guard" },
+    { "source_id": "kimura_side_control", "relationship_type": "common_control_from", "target_id": "side_control" },
+    { "source_id": "triangle_control", "relationship_type": "finish_control_for", "target_id": "triangle_choke" },
+    { "source_id": "armbar_control", "relationship_type": "finish_control_for", "target_id": "armbar" },
+    { "source_id": "arm_triangle_control", "relationship_type": "finish_control_for", "target_id": "arm_triangle_choke" },
+    { "source_id": "north_south_choke_control", "relationship_type": "finish_control_for", "target_id": "north_south_choke" },
+    { "source_id": "guillotine_front_headlock_control", "relationship_type": "finish_control_for", "target_id": "guillotine_choke" },
+    { "source_id": "darce_anaconda_control", "relationship_type": "finish_control_for", "target_id": "darce_choke" },
+    { "source_id": "darce_anaconda_control", "relationship_type": "finish_control_for", "target_id": "anaconda_choke" },
+    { "source_id": "mount", "relationship_type": "has_common_submission", "target_id": "armbar" },
+    { "source_id": "mount", "relationship_type": "has_common_submission", "target_id": "americana" },
+    { "source_id": "mount", "relationship_type": "has_common_submission", "target_id": "arm_triangle_choke" },
+    { "source_id": "mount", "relationship_type": "has_common_submission", "target_id": "cross_collar_choke" },
+    { "source_id": "mount", "relationship_type": "has_common_submission", "target_id": "ezekiel_choke" },
+    { "source_id": "technical_mount", "relationship_type": "has_common_submission", "target_id": "armbar" },
+    { "source_id": "technical_mount", "relationship_type": "transitions_to", "target_id": "back_control" },
+    { "source_id": "s_mount", "relationship_type": "has_common_submission", "target_id": "armbar" },
+    { "source_id": "s_mount", "relationship_type": "has_common_submission", "target_id": "triangle_choke" },
+    { "source_id": "side_control", "relationship_type": "has_common_submission", "target_id": "kimura" },
+    { "source_id": "side_control", "relationship_type": "has_common_submission", "target_id": "americana" },
+    { "source_id": "side_control", "relationship_type": "has_common_submission", "target_id": "arm_triangle_choke" },
+    { "source_id": "side_control", "relationship_type": "has_common_submission", "target_id": "north_south_choke" },
+    { "source_id": "north_south", "relationship_type": "has_common_submission", "target_id": "north_south_choke" },
+    { "source_id": "north_south", "relationship_type": "has_common_submission", "target_id": "kimura" },
+    { "source_id": "knee_on_belly", "relationship_type": "has_common_submission", "target_id": "armbar" },
+    { "source_id": "knee_on_belly", "relationship_type": "has_common_submission", "target_id": "baseball_bat_choke" },
+    { "source_id": "knee_on_belly", "relationship_type": "has_common_submission", "target_id": "cross_collar_choke" },
+    { "source_id": "back_control", "relationship_type": "has_common_submission", "target_id": "rear_naked_choke" },
+    { "source_id": "back_control", "relationship_type": "has_common_submission", "target_id": "bow_and_arrow_choke" },
+    { "source_id": "back_control", "relationship_type": "has_common_submission", "target_id": "armbar" },
+    { "source_id": "closed_guard", "relationship_type": "has_common_submission", "target_id": "triangle_choke" },
+    { "source_id": "closed_guard", "relationship_type": "has_common_submission", "target_id": "armbar" },
+    { "source_id": "closed_guard", "relationship_type": "has_common_submission", "target_id": "kimura" },
+    { "source_id": "closed_guard", "relationship_type": "has_common_submission", "target_id": "omoplata" },
+    { "source_id": "closed_guard", "relationship_type": "has_common_submission", "target_id": "cross_collar_choke" },
+    { "source_id": "rubber_guard", "relationship_type": "has_common_submission", "target_id": "omoplata" },
+    { "source_id": "rubber_guard", "relationship_type": "has_common_submission", "target_id": "triangle_choke" },
+    { "source_id": "rubber_guard", "relationship_type": "has_common_submission", "target_id": "gogoplata" },
+    { "source_id": "front_headlock_from_turtle", "relationship_type": "has_common_submission", "target_id": "guillotine_choke" },
+    { "source_id": "front_headlock_from_turtle", "relationship_type": "has_common_submission", "target_id": "darce_choke" },
+    { "source_id": "front_headlock_from_turtle", "relationship_type": "has_common_submission", "target_id": "anaconda_choke" },
+    { "source_id": "spider_guard", "relationship_type": "has_common_submission", "target_id": "triangle_choke" },
+    { "source_id": "spider_guard", "relationship_type": "has_common_submission", "target_id": "omoplata" },
+    { "source_id": "lasso_guard", "relationship_type": "has_common_submission", "target_id": "omoplata" },
+    { "source_id": "collar_sleeve_guard", "relationship_type": "has_common_submission", "target_id": "triangle_choke" },
+    { "source_id": "collar_sleeve_guard", "relationship_type": "has_common_submission", "target_id": "armbar" },
+    { "source_id": "k_guard", "relationship_type": "transitions_to", "target_id": "fifty_fifty" },
+    { "source_id": "k_guard", "relationship_type": "transitions_to", "target_id": "inside_sankaku" },
+    { "source_id": "k_guard", "relationship_type": "has_common_submission", "target_id": "heel_hook" },
+    { "source_id": "k_guard", "relationship_type": "has_common_submission", "target_id": "kneebar" },
+    { "source_id": "ashi_garami", "relationship_type": "has_common_submission", "target_id": "straight_ankle_lock" },
+    { "source_id": "outside_ashi", "relationship_type": "has_common_submission", "target_id": "straight_ankle_lock" },
+    { "source_id": "outside_ashi", "relationship_type": "has_common_submission", "target_id": "heel_hook" },
+    { "source_id": "inside_sankaku", "relationship_type": "has_common_submission", "target_id": "heel_hook" },
+    { "source_id": "inside_sankaku", "relationship_type": "has_common_submission", "target_id": "kneebar" },
+    { "source_id": "fifty_fifty", "relationship_type": "has_common_submission", "target_id": "heel_hook" },
+    { "source_id": "fifty_fifty", "relationship_type": "has_common_submission", "target_id": "straight_ankle_lock" },
+    { "source_id": "fifty_fifty", "relationship_type": "has_common_submission", "target_id": "toe_hold" }
+  ],
+  "benchmark_categories": [
+    {
+      "id": "move_knowledge",
+      "name": "Move knowledge",
+      "default_weight": 0.3
+    },
+    {
+      "id": "history",
+      "name": "Jiu Jitsu history",
+      "default_weight": 0.2
+    },
+    {
+      "id": "positional_submission_reasoning",
+      "name": "Positional submission reasoning",
+      "default_weight": 0.5
+    }
+  ]
+}

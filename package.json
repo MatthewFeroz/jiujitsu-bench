@@ -1,0 +1,10 @@
+{
+  "name": "jiujitsu-bench",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build:db": "node scripts/build-sqlite.mjs",
+    "query:submissions": "sqlite3 database/jiujitsu-bench.sqlite \"SELECT position_name, submission_name FROM position_submissions ORDER BY position_name, submission_name;\""
+  }
+}
