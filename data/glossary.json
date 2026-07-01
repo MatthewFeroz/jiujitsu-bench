@@ -2,7 +2,7 @@
   "metadata": {
     "name": "Jiu Jitsu Bench Glossary",
     "version": "0.1.0",
-    "description": "Position-first glossary for a Jiu Jitsu reasoning benchmark. Japanese/Judo terms are included only when a standard term exists.",
+    "description": "Glossary for a SkateBench-style Jiu Jitsu terminology benchmark. Japanese/Judo terms are included only when a standard term exists.",
     "source_of_truth": "JSON; SQLite is generated from this file.",
     "ruleset_scope": "Adult black-belt sport Jiu Jitsu, with gi and no-gi categories tracked separately where relevant."
   },
@@ -1121,19 +1121,9 @@
   ],
   "benchmark_categories": [
     {
-      "id": "move_knowledge",
-      "name": "Move knowledge",
-      "default_weight": 0.3
-    },
-    {
-      "id": "history",
-      "name": "Jiu Jitsu history",
-      "default_weight": 0.2
-    },
-    {
-      "id": "positional_submission_reasoning",
-      "name": "Positional submission reasoning",
-      "default_weight": 0.5
+      "id": "positional_terminology_situations",
+      "name": "Jiu Jitsu positional terminology from situations",
+      "default_weight": 1
     }
   ]
 }

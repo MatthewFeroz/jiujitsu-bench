@@ -3,8 +3,31 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
+  "packageManager": "bun@1.3.10",
   "scripts": {
-    "build:db": "node scripts/build-sqlite.mjs",
-    "query:submissions": "sqlite3 database/jiujitsu-bench.sqlite \"SELECT position_name, submission_name FROM position_submissions ORDER BY position_name, submission_name;\""
+    "bench": "bun run bench/cli.ts",
+    "bench:list-models": "bun run bench/cli.ts --list-models",
+    "bench:validate-models": "bun run bench/cli.ts --validate-models",
+    "build": "next build",
+    "build:db": "bun run scripts/build-sqlite.mjs",
+    "dev": "next dev",
+    "preview": "bun run scripts/serve-static.ts",
+    "query:positions": "sqlite3 database/jiujitsu-bench.sqlite \"SELECT id, name, type, family, context FROM terms WHERE type IN ('major_position', 'variation', 'transition_position', 'passing_position') ORDER BY family, name;\"",
+    "query:submissions": "sqlite3 database/jiujitsu-bench.sqlite \"SELECT position_name, submission_name FROM position_submissions ORDER BY position_name, submission_name;\"",
+    "start": "bun run preview",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "lucide-react": "^1.22.0",
+    "next": "^16.2.9",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.3.14",
+    "@types/node": "^26.0.1",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "typescript": "^6.0.3"
   }
 }

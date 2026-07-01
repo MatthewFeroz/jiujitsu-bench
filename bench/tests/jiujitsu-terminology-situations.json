@@ -1,0 +1,42 @@
+{
+  "name": "Jiu Jitsu Positional Terminology Situations",
+  "description": "Checks whether models can name foundational Jiu Jitsu positions from short body-configuration descriptions.",
+  "system_prompt": "You are a Jiu Jitsu positional terminology assistant. You are given a short grappling situation and need to name the most specific common position, guard, pin, back-control position, or leg entanglement. If a standard Japanese or Judo name is commonly used, you may include it, but do not invent Japanese names. Keep answers concise and do not list unrelated submissions or controls.",
+  "tests": [
+    {
+      "prompt": "The top player is sitting on the opponent's torso with both knees controlling either side of the body. What is the position?",
+      "answers": ["mount", "tate-shiho-gatame", "tate shiho gatame"],
+      "negative_answers": ["knee on belly", "side control", "closed guard"]
+    },
+    {
+      "prompt": "The top player is beside the opponent chest-to-chest after passing guard, controlling the torso from the side rather than sitting on top. What is the position?",
+      "answers": ["side control", "yoko-shiho-gatame", "yoko shiho gatame"],
+      "negative_answers": ["mount", "knee on belly", "north-south"]
+    },
+    {
+      "prompt": "The top player has one knee pressing across the opponent's belly or torso while the other leg is posted out for balance and mobility. What is the position?",
+      "answers": ["knee on belly", "knee ride", "uki-gatame", "uki gatame"],
+      "negative_answers": ["mount", "side control", "technical mount"]
+    },
+    {
+      "prompt": "The attacker is behind the opponent with lower-body control such as hooks or a body triangle, preventing the opponent from turning in. What is the position?",
+      "answers": ["back control", "back mount", "rear mount"],
+      "negative_answers": ["mount", "turtle", "crucifix"]
+    },
+    {
+      "prompt": "The bottom player is underneath with both legs wrapped and locked around the opponent's waist, keeping the opponent between their legs. What guard is this?",
+      "answers": ["closed guard"],
+      "negative_answers": ["mount", "half guard", "open guard"]
+    },
+    {
+      "prompt": "The bottom player is underneath and has one of the top player's legs trapped between their own legs while the other leg is free. What guard is this?",
+      "answers": ["half guard"],
+      "negative_answers": ["closed guard", "mount", "side control"]
+    },
+    {
+      "prompt": "One player is attacking the opponent's leg by entangling it with their own legs and hips, using the leg position as the primary control. What is the position family?",
+      "answers": ["ashi garami"],
+      "negative_answers": ["50/50", "inside sankaku", "closed guard"]
+    }
+  ]
+}
